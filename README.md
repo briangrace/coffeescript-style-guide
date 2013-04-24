@@ -407,20 +407,16 @@ If a custom annotation is required, the annotation should be documented in the p
 <a name="miscellaneous"/>
 ## Miscellaneous
 
-`and` is preferred over `&&`.
+At Grouper we prefer to use the traditional logic operators to prevent unnecessary context switching
 
-`or` is preferred over `||`.
+`&&` is preferred over `and`.
 
-`is` is preferred over `==`.
+`||` is preferred over `or`.
 
-`not` is preferred over `!`.
+`==` is preferred over `is`.
 
-`or=` should be used when possible:
+`!` is preferred over `not`.
 
-```coffeescript
-temp or= {} # Yes
-temp = temp || {} # No
-```
 
 Prefer shorthand notation (`::`) for accessing an object's prototype:
 
